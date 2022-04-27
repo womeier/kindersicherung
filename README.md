@@ -19,8 +19,8 @@ This script generates an `/etc/hosts` file that looks like this.
 1) Clone this repo to /etc/hosts.d/
 2) Copy the current `/etc/hosts` to `/etc/hosts.d/base`
 3) Add sites to block, see below.
-4) Install the cron job using `install-cron.sh`, it runs as root.
-5) You should never trust scripts from the internet, read `combine.py` and `install-cron.sh`.
+4) Install the cron job using `install-cron.sh`, it runs on reboot to handle blocking sites temporarily.
+5) You should never trust scripts from the internet, read `run.py` and `install-cron.sh`.
 
 # Blocking sites
 To block a site, add it to `blocked-perm`.

@@ -10,5 +10,5 @@ fi
 cat > /etc/cron.d/kindersicherung << EOF
 # Kindersicherung: hosts blocking
 
-@reboot root /etc/hosts.d/run
+@reboot root /etc/hosts.d/run.py
 EOF
